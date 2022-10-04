@@ -1404,6 +1404,7 @@ form input[type=submit]:hover {
 }
 
 .aside-dropdown {
+  display: none;
   border: 1px solid #ECECEC;
   margin: 20px;
   font-weight: 600;
@@ -1447,6 +1448,9 @@ h3.subtitle {
 }
 
 @media only screen and (max-width: 994px) {
+  .aside-dropdown {
+    display: block;
+  }
   .page-section.detached aside {
     display: none;
   }
