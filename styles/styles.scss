@@ -1737,6 +1737,21 @@ h3.subtitle {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .izvele-flex {
+    flex-direction: column;
+    .item {
+      width: 100%;
+    }
+  }
+  .gallery {
+    gap: 10px;
+  }
+  .gallery .img-wrap img {
+    height: 100px;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .date-title {
     flex-direction: column;
@@ -1746,4 +1761,10 @@ h3.subtitle {
     }
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .gallery .img-wrap img {
+    height: 50px;
+  }
+} 
 

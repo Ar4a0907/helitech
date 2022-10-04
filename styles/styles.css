@@ -1602,6 +1602,20 @@ h3.subtitle {
     gap: 10px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .izvele-flex {
+    flex-direction: column;
+  }
+  .izvele-flex .item {
+    width: 100%;
+  }
+  .gallery {
+    gap: 10px;
+  }
+  .gallery .img-wrap img {
+    height: 100px;
+  }
+}
 @media only screen and (max-width: 450px) {
   .date-title {
     flex-direction: column;
@@ -1609,5 +1623,10 @@ h3.subtitle {
   }
   .date-title h2 {
     margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .gallery .img-wrap img {
+    height: 50px;
   }
 }/*# sourceMappingURL=styles.css.map */
